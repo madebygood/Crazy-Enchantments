@@ -17,7 +17,6 @@ public class GKitzItem {
 	private HashMap<Enchantment, Integer> enchantments;
 	private HashMap<CEnchantment, Integer> ceEnchantments;
 	private CrazyEnchantments ce = CrazyEnchantments.getInstance();
-	private HashMap<CEnchantments, Integer> ceEnchantments;
 	
 	/**
 	 * Make an empty gkit item.

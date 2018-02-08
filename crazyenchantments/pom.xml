@@ -26,6 +26,13 @@
             <version>1.8</version>
         </dependency>
         <dependency>
+            <groupId>com.gmail.nossr50.mcMMO</groupId>
+            <artifactId>mcMMO</artifactId>
+            <version>1.5.09-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/lib/mcMMO.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>com.sk89q.worldguard</groupId>
             <artifactId>worldguard-legacy</artifactId>
             <version>6.2.1-SNAPSHOT</version>
@@ -202,8 +209,8 @@
                             <include>me.badbones69:*</include>
                         </includes>
                     </artifactSet>
-                    <!--<finalName>${project.artifactId}[v${project.version}]</finalName>-->
-                    <outputFile>/Users/Joe/Desktop/Stuff/Server/plugins/${project.artifactId}[v${project.version}].jar</outputFile>
+                    <finalName>${project.artifactId}[v${project.version}]</finalName>
+                    <!--<outputFile>/Users/Joe/Desktop/Stuff/Server/plugins/${project.artifactId}[v${project.version}].jar</outputFile>-->
                     <!--<outputFile>/Users/Joe/Plugins/Public Plugins/Crazy Enchantments/${project.artifactId}[v${project.version}].jar</outputFile>-->
                 </configuration>
                 <executions>
