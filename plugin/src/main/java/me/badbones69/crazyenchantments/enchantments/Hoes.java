@@ -318,7 +318,7 @@ public class Hoes implements Listener {
     
     private List<Block> getAreaCrops(Player player, Block block, BlockFace blockFace) {
         List<Block> blocks = new ArrayList<>();
-        for (Block crop : getAreaBlocks(block, blockFace, 0, 1)) {//Radius of 1 is 3x3
+        for (Block crop : getAreaBlocks(block, blockFace, 0, 0.5)) {//Radius of 1 is 3x3
             if (getHarvesterCrops().contains(crop.getType())) {
                 if (ce.getNMSSupport().isFullyGrown(crop)) {
                     BlockBreakEvent event = new BlockBreakEvent(crop, player);
