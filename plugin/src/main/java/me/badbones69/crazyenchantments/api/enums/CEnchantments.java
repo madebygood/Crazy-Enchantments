@@ -18,6 +18,7 @@ public enum CEnchantments {
     ROCKET("Rocket", "Boots", 15, 5),
     SPRINGS("Springs", "Boots"),
     ANTIGRAVITY("AntiGravity", "Boots"),
+    UNPOISON("Unpoison", "Boots"),
     //	----------------Bows----------------  \\
     BOOM("Boom", "Bow", 20, 10),
     PULL("Pull", "Bow", 25, 10),
@@ -29,6 +30,7 @@ public enum CEnchantments {
     MULTIARROW("MultiArrow", "Bow", 25, 10),
     STICKY_SHOT("Sticky-Shot", "Bow", 10, 10),
     SNIPER("Sniper", "Bow", 25, 5),
+    SHARPEYES("Sharpeyes", "Bow", 25, 5),
     //	----------------Helmets----------------  \\
     GLOWING("Glowing", "Helmet"),
     MERMAID("Mermaid", "Helmet"),
@@ -118,6 +120,8 @@ public enum CEnchantments {
     PLANTER("Planter", "Hoe"),
     //	----------------All----------------  \\
     HELLFORGED("HellForged", "Damaged-Items", 5, 5);
+    //	----------------Weapons----------------  \\
+    CRITICALISM("Criticalism", "Weapons");
     
     private String name;
     private String typeName;
