@@ -18,6 +18,7 @@ public enum CEnchantments {
     ROCKET("Rocket", EnchantmentType.getFromName("Boots"), 15, 5),
     SPRINGS("Springs", EnchantmentType.getFromName("Boots")),
     ANTIGRAVITY("AntiGravity", EnchantmentType.getFromName("Boots")),
+    UNPOISON("Unpoiosn", EnchantmentType.getFromName("Boots")),
     //	----------------Bows----------------  \\
     BOOM("Boom", EnchantmentType.getFromName("Bow"), 20, 10),
     PULL("Pull", EnchantmentType.getFromName("Bow"), 25, 10),
