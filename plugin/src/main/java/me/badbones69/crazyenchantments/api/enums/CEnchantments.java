@@ -29,6 +29,7 @@ public enum CEnchantments {
     LIGHTNING("Lightning", EnchantmentType.getFromName("Bow"), 25, 10),
     MULTIARROW("MultiArrow", EnchantmentType.getFromName("Bow"), 25, 10),
     STICKY_SHOT("Sticky-Shot", EnchantmentType.getFromName("Bow"), 10, 10),
+    SHARPEYES("Sharpeyes", EnchantmentType.getFromName("Bow")),
     //	----------------Helmets----------------  \\
     GLOWING("Glowing", EnchantmentType.getFromName("Helmet")),
     MERMAID("Mermaid", EnchantmentType.getFromName("Helmet")),
@@ -115,6 +116,8 @@ public enum CEnchantments {
     HARVESTER("Harvester", EnchantmentType.getFromName("Hoe")),
     TILLER("Tiller", EnchantmentType.getFromName("Hoe")),
     PLANTER("Planter", EnchantmentType.getFromName("Hoe")),
+    //	----------------Weapons----------------  \\
+    CRITICALISM("Criticalism", EnchantmentType.getFromName("Weapons")),
     //	----------------All----------------  \\
     HELLFORGED("HellForged", EnchantmentType.getFromName("Damaged-Items"), 5, 5);
     
